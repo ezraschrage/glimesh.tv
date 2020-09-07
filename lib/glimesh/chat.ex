@@ -5,6 +5,7 @@ defmodule Glimesh.Chat do
 
   import Ecto.Query, warn: false
 
+  alias Glimesh.Accounts
   alias Glimesh.Chat.ChatMessage
   alias Glimesh.Repo
   alias Glimesh.Streams
@@ -86,6 +87,10 @@ defmodule Glimesh.Chat do
     case :ets.lookup(:banned_list, username) do
       [{^username, _}] -> raise ArgumentError, message: "user must not be banned"
       [] -> true
+    end
+
+    if Accounts.is_user_banned_by_username(username) do
+      raise ArgumentError, message: "User must not be banned"
     end
 
     %ChatMessage{
