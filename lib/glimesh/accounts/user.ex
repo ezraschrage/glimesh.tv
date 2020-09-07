@@ -17,6 +17,7 @@ defmodule Glimesh.Accounts.User do
 
     field :can_stream, :boolean, default: false
     field :is_admin, :boolean, default: false
+    field :is_banned, :boolean, default: false
 
     field :avatar, Glimesh.Avatar.Type
     field :social_twitter, :string
