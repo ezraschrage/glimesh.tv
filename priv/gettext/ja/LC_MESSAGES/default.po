@@ -52,7 +52,7 @@ msgid "Cosmetic Features"
 msgstr "ビジュアル機能"
 
 #, elixir-format
-#: lib/glimesh/accounts/user.ex:134
+#: lib/glimesh/accounts/user.ex:135
 msgid "Display name must match Username"
 msgstr "表示名はユーザー名と一致している必要があります。"
 
@@ -73,7 +73,7 @@ msgid "Email change link is invalid or it has expired."
 msgstr "メールアドレス変更リンクが無効、または有効期限が切れています。"
 
 #, elixir-format
-#: lib/glimesh/accounts/user.ex:152
+#: lib/glimesh/accounts/user.ex:153
 msgid "Email is the same"
 msgstr "同じメールアドレス"
 
@@ -93,17 +93,17 @@ msgid "Help us fund the platform & grow!"
 msgstr "プラットフォームへの資金提供と成長にご協力ください＼(^o^)／"
 
 #, elixir-format
-#: lib/glimesh/accounts/user.ex:244
+#: lib/glimesh/accounts/user.ex:245
 msgid "Incorrect YouTube URL format"
 msgstr "YouTubeのURL形式が間違っています。"
 
 #, elixir-format
-#: lib/glimesh/accounts/user.ex:235
+#: lib/glimesh/accounts/user.ex:236
 msgid "Invalid Password"
 msgstr "無効なパスワード"
 
 #, elixir-format
-#: lib/glimesh_web/controllers/user_session_controller.ex:22
+#: lib/glimesh_web/controllers/user_session_controller.ex:34
 msgid "Invalid e-mail or password"
 msgstr "メールアドレスまたはパスワードが無効です。"
 
@@ -146,7 +146,7 @@ msgid "Parent Category"
 msgstr "ペアレントカテゴリー"
 
 #, elixir-format
-#: lib/glimesh/accounts/user.ex:162
+#: lib/glimesh/accounts/user.ex:163
 msgid "Password does not match"
 msgstr "パスワードが一致しません。"
 
@@ -442,7 +442,7 @@ msgid "Level the playing field."
 msgstr "公平な競争の場。"
 
 #, elixir-format
-#: lib/glimesh_web/controllers/user_session_controller.ex:43
+#: lib/glimesh_web/controllers/user_session_controller.ex:55
 msgid "Logged out successfully."
 msgstr "正常にログアウトしました。"
 
@@ -934,7 +934,7 @@ msgid "Enter your 2FA code!"
 msgstr ""
 
 #, elixir-format
-#: lib/glimesh_web/controllers/user_session_controller.ex:33
+#: lib/glimesh_web/controllers/user_session_controller.ex:45
 msgid "Invalid 2FA code, if you need help please email %{email}"
 msgstr ""
 
