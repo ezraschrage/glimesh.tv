@@ -238,7 +238,7 @@
                     <%= form_for @conn, Routes.user_session_path(@conn, :create), [as: :user, class: "text-left"], fn f -> %>
                         <%= if @error_message do %>
                             <div class="alert alert-danger">
-                              <center><%= @error_message %></center>
+                              <div class="text-center"><%= @error_message %></div>
                             </div>
                         <% end %>
 
